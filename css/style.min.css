@@ -1643,7 +1643,19 @@ body {
   line-height: 25px;
   text-decoration-line: underline;
   color: #000000;
+  transition: all 0.3s ease 0s;
   padding: 0px 0px 0px 35px;
+}
+.column-two-benefits__button span {
+  color: #000000;
+}
+.column-two-benefits__button:hover {
+  transition: all 0.3s ease 0s;
+  text-decoration-line: none;
+  color: #000000;
+}
+.column-two-benefits__button:hover span {
+  color: #000000;
 }
 @media (max-width: 991.98px) {
   .column-two-benefits__button {
