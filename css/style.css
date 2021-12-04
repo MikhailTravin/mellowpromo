@@ -1133,7 +1133,27 @@ body {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #000000;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   padding: 0px 0px 0px 35px;
+}
+
+.column-two-benefits__button span {
+  color: #000000;
+}
+
+.column-two-benefits__button:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #000000;
+}
+
+.column-two-benefits__button:hover span {
+  color: #000000;
 }
 
 .page {
@@ -1187,7 +1207,7 @@ body {
 
 @media (max-width: 991.98px) {
   .page__main-home {
-    margin: 100px 0px 34px 0px;
+    margin: 90px 0px 34px 0px;
   }
 
   .page__level {
